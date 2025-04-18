@@ -4,48 +4,48 @@ Este repositório faz parte do primeiro Challenge do programa Oracle One Data Sc
 
 ---
 
-📋 Sumário
+## 📋 Sumário
 
-Descrição do Projeto
+1. [Descrição do Projeto](#descricao-do-projeto)
 
-Estrutura de Diretórios
+2. [Estrutura de Diretórios](#estrutura-de-diretorios)
 
-Pré-requisitos
+3. [Pré-requisitos](#pre-requisitos)
 
-Instalação
+4. [Instalação](#instalacao)
 
-Uso / Como Executar
+5. [Uso / Como Executar](#uso-como-executar)
 
-Executando no Google Colab
+6. [Executando no Google Colab](#executando-no-google-colab)
 
-Análises Contidas
+7. [Análises Contidas](#analises-contidas)
 
-Resultados e Insights
+8. [Resultados e Insights](#resultados-e-insights)
 
-Contribuindo
+9. [Contribuindo](#contribuindo)
 
-Licença
-
----
-
-📝 Descrição do Projeto
-
-Neste desafio, utilizamos um notebook para:
-
-Calcular e comparar o faturamento total de cada loja.
-
-Avaliar a média de avaliações dos clientes por loja.
-
-Mensurar o frete médio e sua influência na rentabilidade.
-
-Identificar os Top 5 produtos mais e menos vendidos por unidade.
-
-Mapear as vendas geograficamente e detectar clusters de alta demanda.
-
-Com base nesses resultados, recomendamos qual loja vender e exploramos padrões geográficos que impactam o desempenho.
+10. [Licença](#licenca)
 
 ---
-📂 Estrutura de Diretórios
+
+## 📝 Descrição do Projeto
+
+Neste desafio, utilizei um notebook para:
+
+-  Calcular e comparar o faturamento total de cada loja.
+
+- Avaliar a média de avaliações dos clientes por loja.
+
+- Mensurar o frete médio e sua influência na rentabilidade.
+
+- Identificar os Top 5 produtos mais e menos vendidos por unidade.
+
+- Mapear as vendas geograficamente e detectar clusters de alta demanda.
+
+> Com base nesses resultados, recomendo qual loja vender e exploro padrões geográficos que impactam o desempenho.
+
+---
+## 📂 Estrutura de Diretórios
 
 ├── data/
 │   ├── loja_1.csv
@@ -60,40 +60,39 @@ Com base nesses resultados, recomendamos qual loja vender e exploramos padrões 
 
 ---
 
-⚙️ Pré-requisitos
+## ⚙️ Pré-requisitos
 
 Python 3.8+
 
 Bibliotecas Python:
 
-pandas
+- pandas
 
-numpy
+- numpy
 
-matplotlib
+- matplotlib
 
-seaborn
+- seaborn
 
-folium (opcional, para mapas interativos)
+- folium (opcional, para mapas interativos)
 
 ---
 
-🚀 Instalação
+## 🚀 Instalação
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/alura-store-analytics.git
-cd alura-store-analytics
+`git clone https://github.com/muller-pereira/alura_store.git`
 
 Instale as dependências:
 
 pip install pandas numpy matplotlib seaborn folium
 
-Certifique-se de que os arquivos CSV de cada loja estejam em data/.
+Certifique-se de que os arquivos CSV de cada loja estejam em `data/`.
 
 ---
 
-🎯 Uso / Como Executar (Local)
+## 🎯 Uso / Como Executar (Local)
 
 Abrir e executar o Notebook
 
@@ -101,7 +100,7 @@ Abra o Jupyter Notebook ou JupyterLab no diretório do projeto:
 
 jupyter notebook
 
-No navegador, clique em notebooks/AluraStoreBr.ipynb.
+No navegador, clique em `notebooks/AluraStoreBr.ipynb`.
 
 Execute as células na ordem, da primeira à última.
 
@@ -115,81 +114,83 @@ Scatterplots e Heatmaps para análise geográfica.
 
 ---
 
-🛰️ Executando no Google Colab
+## 🛰️ Executando no Google Colab
 
-Acesse https://colab.research.google.com/ e faça login.
+Acesse [`https://colab.research.google.com/`](https://colab.research.google.com/) e faça login.
 
 Selecione GitHub e cole a URL do repositório:
 
-https://github.com/seu-usuario/alura-store-analytics
+[`https://github.com/muller-pereira/alura_store.git`](https://github.com/muller-pereira/alura_store.git)
 
-Abra o notebook notebooks/AluraStoreBr.ipynb.
+Abra o notebook `notebooks/AluraStoreBr.ipynb`.
 
 No início do notebook, instale as bibliotecas:
 
-!pip install pandas numpy matplotlib seaborn folium
+> `!pip install pandas numpy matplotlib seaborn folium`
 
 (Opcional) Monte seu Google Drive:
 
-from google.colab import drive
-drive.mount('/content/drive')
+>`from google.colab import drive`
+
+> `drive.mount('/content/drive')`
 
 Ajuste os caminhos dos CSVs se necessário:
 
-import pandas as pd
-df1 = pd.read_csv('data/loja_1.csv')  # ou '/content/drive/MyDrive/...'
+>`import pandas as pd`
+
+>`df1 = pd.read_csv('data/loja_1.csv')  # ou /content/drive/MyDrive/...`
 
 Execute todas as células para gerar as análises e mapas interativos.
 
 ---
 
-📊 Análises Contidas
+## 📊 Análises Contidas
 
-Faturamento por Loja
+- Faturamento por Loja
 
-Vendas por Categoria
+- Vendas por Categoria
 
-Avaliação Média
+- Avaliação Média
 
-Frete Médio
+- Frete Médio
 
-Top/Bottom 5 Produtos
+- Top/Bottom 5 Produtos
 
-Distribuição Geográfica
+- Distribuição Geográfica
 
-Scatterplot
+- Scatterplot
 
-Heatmaps (KDE / hist2d)
+- Heatmaps (KDE / hist2d)
 
-Mapa interativo Folium
-
----
-
-🔍 Resultados e Insights Principais
-
-Loja 4: menor faturamento e eficiência → recomendada para venda.
-
-Loja 2: destaque em cursos de tecnologia e instrumentos musicais.
-
-Loja 3: forte em móveis e itens para casa.
-
-Zonas de alta demanda nos mapas orientam estoque e marketing local.
+- Mapa interativo Folium
 
 ---
 
-🤝 Contribuindo
+## 🔍 Resultados e Insights Principais
 
-Fork este repositório
+- Loja 4: menor faturamento e eficiência → recomendada para venda.
 
-Crie branch: git checkout -b feat/sua-analise
+- Loja 2: destaque em cursos de tecnologia e instrumentos musicais.
 
-Commit: git commit -m "feat: descrição da sua análise"
+- Loja 3: forte em móveis e itens para casa.
 
-Push e abra um Pull Request
+- Zonas de alta demanda nos mapas orientam estoque e marketing local.
 
 ---
 
-⚖️ Licença
+## 🤝 Contribuindo
+
+- Fork este repositório
+
+- Crie branch: `git checkout -b feat/sua-analise`
+
+- Commit: `git commit -m "feat: descrição da sua análise"`
+
+- Push e abra um Pull Request
+
+---
+
+## ⚖️ Licença
 
 Licenciado sob MIT License — consulte LICENSE.
 
