@@ -1,6 +1,6 @@
 # Challenge Alura Store 
 
-Este repositório faz parte do primeiro Challenge do programa Oracle One Data Science G8 e consiste em ajudar o Senhor João a decidir qual loja da sua rede Alura Store vender para iniciar um novo empreendimento. Para isso, é necessário analisar dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store. O objetivo é identificar a loja com menor eficiência e apresentar uma recomendação final baseada nos dados.
+<div style="text-align: justify">Este repositório faz parte do primeiro Challenge do programa Oracle One Data Science G8 e consiste em ajudar o Senhor João a decidir qual loja da sua rede Alura Store vender para iniciar um novo empreendimento. Para isso, é necessário analisar dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store. O objetivo é identificar a loja com menor eficiência e apresentar uma recomendação final baseada nos dados.</div>
 
 ---
 
@@ -32,15 +32,13 @@ Este repositório faz parte do primeiro Challenge do programa Oracle One Data Sc
 
 Neste desafio, utilizei um notebook para:
 
--  Calcular e comparar o faturamento total de cada loja.
+- Calcular e comparar o faturamento total de cada loja.
 
 - Avaliar a média de avaliações dos clientes por loja.
 
 - Mensurar o frete médio e sua influência na rentabilidade.
 
 - Identificar os Top 5 produtos mais e menos vendidos por unidade.
-
-- Mapear as vendas geograficamente e detectar clusters de alta demanda.
 
 > Com base nesses resultados, recomendo qual loja vender e exploro padrões geográficos que impactam o desempenho.
 
@@ -73,9 +71,6 @@ Bibliotecas Python:
 - matplotlib
 
 - seaborn
-
-- folium (opcional, para mapas interativos)
-
 ---
 
 ## 🚀 Instalação
@@ -86,7 +81,7 @@ Clone este repositório:
 
 Instale as dependências:
 
-pip install pandas numpy matplotlib seaborn folium
+`pip install pandas numpy matplotlib seaborn`
 
 Certifique-se de que os arquivos CSV de cada loja estejam em `data/`.
 
@@ -109,8 +104,6 @@ Isso irá gerar:
 Gráficos e tabelas de faturamento, avaliação e frete.
 
 Top 5 e Bottom 5 de produtos vendidos por loja.
-
-Scatterplots e Heatmaps para análise geográfica.
 
 ---
 
@@ -140,7 +133,7 @@ Ajuste os caminhos dos CSVs se necessário:
 
 >`df1 = pd.read_csv('data/loja_1.csv')  # ou /content/drive/MyDrive/...`
 
-Execute todas as células para gerar as análises e mapas interativos.
+Execute todas as células para gerar as análise.
 
 ---
 
@@ -152,18 +145,9 @@ Execute todas as células para gerar as análises e mapas interativos.
 
 - Avaliação Média
 
-- Frete Médio
-
 - Top/Bottom 5 Produtos
 
-- Distribuição Geográfica
-
-- Scatterplot
-
-- Heatmaps (KDE / hist2d)
-
-- Mapa interativo Folium
-
+- Frete Médio
 ---
 
 ## 🔍 Resultados e Insights Principais
@@ -173,9 +157,6 @@ Execute todas as células para gerar as análises e mapas interativos.
 - Loja 2: destaque em cursos de tecnologia e instrumentos musicais.
 
 - Loja 3: forte em móveis e itens para casa.
-
-- Zonas de alta demanda nos mapas orientam estoque e marketing local.
-
 ---
 
 ## 🤝 Contribuindo
@@ -187,7 +168,6 @@ Execute todas as células para gerar as análises e mapas interativos.
 - Commit: `git commit -m "feat: descrição da sua análise"`
 
 - Push e abra um Pull Request
-
 ---
 
 ## ⚖️ Licença
@@ -195,7 +175,6 @@ Execute todas as células para gerar as análises e mapas interativos.
 Licenciado sob MIT License — consulte LICENSE.
 
 ---
-
 Challenge Alura Store - Desenvolvido para o programa Oracle One Data Science G8 
 
 ---
