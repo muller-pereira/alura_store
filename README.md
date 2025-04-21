@@ -168,6 +168,10 @@ A Loja 4 é a que tem o menor faturamento (cerca de R$ 1,38 M), ou seja, gera
 > Em conjunto, isso indica que a Loja 4 é a menos eficiente do ponto de vista de retorno sobre estoque, logística e satisfação do cliente.
 ---
 
+## :pushpin: Recomendação
+> O Senhor João deve vender a Loja 4 e reinvestir o capital em uma das outras unidades (por exemplo, Loja 1 ou Loja 2), que apresentam faturamento mais alto, melhores ratings e maior eficiência operacional. Dessa forma, ele maximiza o retorno do novo empreendimento com recursos mais bem aproveitados.
+---
+
 ## 🤝 Contribuindo
 
 - Fork este repositório
