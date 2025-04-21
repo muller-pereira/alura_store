@@ -140,19 +140,25 @@ Execute todas as células para gerar as análise.
 ## 📊 Análises Contidas
 
 - Faturamento por Loja
+  
 ![faturamento por loja](./images/faturamento.png)
 
 - Vendas por Categoria
+  
 ![vendas por categorias](./images/categorias.png)
 
 - Avaliação Média
+  
 ![avaliação média](./images/avaliacoes.png)
 
 - Top/Bottom 5 Produtos
+  
 ![top/bottom 5 produtos](./images/top5.png)
 
 - Frete Médio
+  
 ![frete médio](./images/frete_medio.png)
+
 ---
 
 ## 🔍 Resultados e Insights Principais
