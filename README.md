@@ -140,23 +140,32 @@ Execute todas as células para gerar as análise.
 ## 📊 Análises Contidas
 
 - Faturamento por Loja
+![faturamento por loja](./images/faturamento.png)
 
 - Vendas por Categoria
+![vendas por categorias](./images/categorias.png)
 
 - Avaliação Média
+![avaliação média](./images/avaliacoes.png)
 
 - Top/Bottom 5 Produtos
+![top/bottom 5 produtos](./images/top5.png)
 
 - Frete Médio
+![frete médio](./images/frete_medio.png)
 ---
 
 ## 🔍 Resultados e Insights Principais
 
-- Loja 4: menor faturamento e eficiência → recomendada para venda.
+A Loja 4 é a que tem o menor faturamento (cerca de R$ 1,38 M), ou seja, gera menos receita do que qualquer outra. Além disso:
 
-- Loja 2: destaque em cursos de tecnologia e instrumentos musicais.
+- Apresenta avaliação média de clientes ligeiramente inferior ao das demais.
 
-- Loja 3: forte em móveis e itens para casa.
+- Tem custo de frete médio parecido ou até um pouco maior em relação ao que fatura, reduzindo sua “eficiência” de operação (menos receita gerada por real investido em frete).
+
+- Nas análises de top/menos vendidos, seus principais itens (cama box, faqueiro) não alcançam nem de longe os picos de giro vistos em lojas especializadas (como móveis na Loja 3 ou cursos na Loja 2).
+
+> Em conjunto, isso indica que a Loja 4 é a menos eficiente do ponto de vista de retorno sobre estoque, logística e satisfação do cliente.
 ---
 
 ## 🤝 Contribuindo
